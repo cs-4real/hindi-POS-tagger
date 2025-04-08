@@ -14,18 +14,3 @@ The TnT tagger is trained on the `hindi.pos` corpus, which includes POS-tagged s
 - Evaluates its accuracy
 - Tags a custom input Hindi sentence
 
----
-
-## 🚀 Getting Started
-
-### Requirements
-
-- Python 3.x
-- NLTK library
-
-### Installation
-
-Install NLTK via pip if not already installed:
-
-```bash
-pip install nltk
