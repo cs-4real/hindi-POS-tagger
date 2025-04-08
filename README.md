@@ -1,30 +1,15 @@
-# Hindi POS Tagger using NLTK and TnT (Trigram'n'Tag)
+# Hindi POS Tagger using NLTK TnT
 
-This project builds a Part-of-Speech (POS) tagger for **Hindi language** using NLTK's `TnT` (Trigrams'n'Tags) tagger trained on the Indian corpus provided by NLTK.
-
-It also includes:
-
-- Custom fallback heuristics to handle unknown (UNK) tokens
-- Accurate tagging of Hindi punctuation like `।` and symbols like `|`
-- Custom tokenization for Devanagari script to ensure correct sentence parsing
-- Final model evaluation with fallback for improved accuracy
+This project demonstrates a basic implementation of a **Part-of-Speech (POS) tagger** for Hindi using the `TnT` tagger provided by the NLTK library. It uses the Hindi POS-tagged corpus from NLTK's Indian languages dataset.
 
 ---
 
-## 📦 Features
+## 🛠 Requirements
 
-- ✅ Train POS tagger using Hindi corpus from NLTK's Indian dataset
-- ✅ Fallback heuristic rules for unknown words (like verbs, conjunctions, auxiliaries)
-- ✅ Custom tokenizer for Hindi (splits punctuation correctly)
-- ✅ Accuracy evaluation using both TnT and fallback combined
-- ✅ Handles special tokens like `|` and `।` as `SYM`
+- Python 3.x
+- NLTK library
 
----
-
-## 🛠 Installation
-
-1. Make sure Python 3.x is installed.
-2. Install required libraries:
+Install NLTK if you haven't already:
 
 ```bash
 pip install nltk
